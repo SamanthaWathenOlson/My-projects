@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+integer = 0 
+
+while(integer < 10):
+  square = integer ** 2
+  cube = integer ** 3
+  print(integer,quare,cube)
+  integer += 1
+  
