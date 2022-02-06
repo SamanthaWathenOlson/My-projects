@@ -1,6 +1,3 @@
-//I am going to make a calendar//
-
-
 var inst = mobiscroll.eventcalendar('#demo-mobile-month-view', {
     theme: 'ios',
     themeVariant: 'light',
