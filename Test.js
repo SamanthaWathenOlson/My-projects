@@ -43,6 +43,7 @@ public void setaddress(String address) {
  system.out.println(s.getName());
  }
  }
+ 
 public class Test {
 
    public static void main(String args[]) {
