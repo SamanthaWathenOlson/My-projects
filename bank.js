@@ -1,6 +1,8 @@
 abtract class Bank{
   abstract void getRateofInterest();
 }
+var calculateInterest = function (total,year,rate) { 
+  var interest = rate/100+1; return parseFloat((total*Math. pow(interest,year))
   //Overridden method
 class SBI extends Bank{
   //Overriding method
