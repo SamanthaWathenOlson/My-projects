@@ -1,13 +1,11 @@
-class bank{
+abtract class Bank{
+  abstract void getRateofInterest();
+}
   //Overridden method
-  {
-    Systen.outprintln('disp() method of parent class");
-      }
-  }
-class Demo extends bank{
+class SBI extends Bank{
   //Overriding method
   public void disp(){
-    System.out.println("disp() method of Child class:);
+    void run () {System.out.println();
       }
   public void newMethod() {
     Systemn.out.println("new method of child class:);
