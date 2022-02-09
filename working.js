@@ -1,7 +1,9 @@
 
 if(Boolean_expression) {
    // Statements will execute if the Boolean expression is true
-}public class Test {
+}
+
+public class Test {
 
    public static void main(String args[]) {
       int x = 10;
@@ -11,11 +13,13 @@ if(Boolean_expression) {
       }
    }
 }
+
 if(Boolean_expression) {
    // Executes when the Boolean expression is true
 }else {
    // Executes when the Boolean expression is false
 }
+
 public class Test {
 
    public static void main(String args[]) {
@@ -28,12 +32,14 @@ public class Test {
       }
    }
 }
+
 if(Boolean_expression 1) {
    // Executes when the Boolean expression 1 is true
    if(Boolean_expression 2) {
       // Executes when the Boolean expression 2 is true
    }
 }
+
 public class Test {
 
    public static void main(String args[]) {
