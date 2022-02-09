@@ -14,9 +14,9 @@ class SBI extends Bank{
       
       bank obj = new bank();
       obj.disp();
-      bank obj2 = new Demo(); // Covariance with referrence types
+      bank obj2 = new Demo(); // Covariance with reference types
       obj2.disp();
-      bank obj3 = new Demo(); // Covariance with referrence types
+      bank obj3 = new Demo(); // Covariance with reference types
       obj3.disp();
       bank obj4 = new Demo(); // Covariance with reference types
       obj4.disp();
