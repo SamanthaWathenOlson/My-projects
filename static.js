@@ -57,3 +57,40 @@ class Honda1 extends Bike{  // Compile Time Error (Cant extend final class)
   honda.run();  
   }  
 } 
+
+/* File name : NameOfInterface.java */
+import java.lang.*;
+// Any number of import statements
+
+public interface NameOfInterface {
+   // Any number of final, static fields
+   // Any number of abstract method declarations\
+}
+
+/* File name : Animal.java */
+interface Animal {
+   public void eat();
+   public void travel();
+}
+
+/* File name : MammalInt.java */
+public class MammalInt implements Animal {
+
+   public void eat() {
+      System.out.println("Mammal eats");
+   }
+
+   public void travel() {
+      System.out.println("Mammal travels");
+   } 
+
+   public int noOfLegs() {
+      return 0;
+   }
+
+   public static void main(String args[]) {
+      MammalInt m = new MammalInt();
+      m.eat();
+      m.travel();
+   }
+} 
