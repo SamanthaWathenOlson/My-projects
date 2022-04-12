@@ -11,3 +11,18 @@ public class Producer {
     }
     
 
+
+package entities;
+
+public class Customer {
+    private String fullName;
+
+    public Entities(String fullName)  {
+        setFullName(fullName);
+
+    public void println() {
+        System.out.println("Sarah O'Connor");
+    }
+
+    
+
