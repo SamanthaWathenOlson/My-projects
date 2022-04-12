@@ -1,6 +1,11 @@
 package entities;
 
 public class Producer {
+    int myInt;
+    String myString;
+    boolean myBoolean;
+
+public class Producer {
     private String fullName;
 
     public Entities(String fullName)  {
@@ -10,9 +15,13 @@ public class Producer {
         System.out.println("Sarah O'Connor");
     }
     
+    
+    
+public class Customer {
+    int myInt;
+    String myString;
+    boolean myBoolean;
 
-
-package entities;
 
 public class Customer {
     private String fullName;
