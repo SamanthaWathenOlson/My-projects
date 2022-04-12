@@ -30,7 +30,7 @@ public class Customer {
         setFullName(fullName);
 
     public void println() {
-        System.out.println("Sarah O'Connor");
+        System.out.println("John O'Connor");
     }
 
     
