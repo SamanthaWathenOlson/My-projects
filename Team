@@ -4,23 +4,31 @@ players = ["Sam", "Fred", "Celine", "Greg", "Janet",
 "Wallace", "Dancie", "Karen", "Isaiah", "Jean", "Alan", 
 "Lexi", "Jordan", "Rose", "Harry", "Rose", "Barry", "Ola",
 "Eulie", "Perie" ]
-print("Welcome to Team Allocator!")
+print("Welcome to Team/Player Allocator!")
 number_of_players = int(input("How many players \
 are there?"))
 for I in range(1, number_of_players + 1):
    players.append(i)
 while True:
     random.shuffle(players)
-    team1 = players[len(players)//2]
-        print("Team 1 captain: " + str(random.choice(team1)))
+    response = input("Is it a team or individual sport? 
+                     \nType team or individual: ")
+    if response == "team":
+         team1 = players[len(players)//2]
+            print("Team 1 captain: " + str(random.choice(team1)))
     print("Team 1:")
-        for players in team1:
+        for player in team1:
             print(player)
-    team2 = players[len(players)//2:]
+    team2 = player[len(players)//2:]
         print("\nTeam 2 captain: " + str(random.choice(teams2)))
     print("Team 2:")
         for player in team2:
             print(player)
+        else:
+            for i in range(0, 20, 2):
+                print(players[i] + " vs " + players[i+1]
+                start = random.randrange(i, i+2)
+                print(players[start] + " starts")
     response = input("Pick teams again? Type y or no: ")
         if response =="n":
             break
