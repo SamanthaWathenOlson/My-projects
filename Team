@@ -1,0 +1,20 @@
+import random
+print("Welcome to Team Allocator!")
+players = ["Sam", "Fred", "Celine", "Greg", "Janet",
+"Wallace", "Dancie", "Karen", "Isaiah", "Jean", "Alan", 
+"Lexi", "Jordan", "Rose", "Harry", "Rose", "Barry", "Ola",
+"Eulie", "Perie" ]
+random.shuffle(players)
+team1 = players[len(players)//2]
+print("Team 1 captain: " + random.choice(team1))
+print("Team 1:")
+    for players in team1:
+        print(player)
+team2 = players[len(players)//2:]
+print("\nTeam 2 captain: " + random.choice(teams2))
+print("Team 2:")
+    for player in team2:
+        print(player)
+response = input("Pick teams again? Type y or no: ")
+    if response =="n":
+        break
